@@ -1,0 +1,361 @@
+body{ margin:0; padding:0; font-family: 'Ubuntu', sans-serif; font-size:12px; color:#000;}
+h1, h2, h3, h4, h5, h6{ margin:0; padding:0; text-decoration:none; outline:none;}
+ul, li, a{ margin:0; padding:0; text-decoration:none; outline:none; list-style:none;}
+p{ margin:0; padding:0; outline:none; line-height:20px;}
+a{ text-decoration:none; outline:none;}
+a:focus{  outline:none;}
+img{ margin:0; padding:0; text-decoration:none; outline:none;}
+
+
+
+
+.header{ width:100%; display:table;}
+.container{ max-width:1230px; width:100%; margin:0 auto;}
+.logo{  margin:20px 0; width:40%; float:left;}
+.collapse{ width:50%; float:right;}
+.right-menu{  margin:54px 0;float:right;}
+.right-menu ul{}	
+.right-menu ul li{ display:inline-block;}
+.right-menu ul li a{ font-family: 'Ubuntu', sans-serif; font-size:15px; text-decoration:none; text-transform:uppercase; color:#3f3c3c; font-weight:700;padding: 0 18px; }
+.right-menu ul li:last-child a{ padding-right:0;}
+.login-button{ float:left: width:100%; }
+.login-button ul{ padding:0; margin:10px 0 0 0; }
+.login-button ul li{ float:right; }
+.login-button ul li a{ background:#fe4f0f; color:#fff; padding:8px 15px; margin:0 2px; border-radius:5px;}
+.navbar-default{ background:#FFF;}
+.banner{ width:100%; display:table; background:url(../images/bannar.jpg) no-repeat top center; margin-top:130px; padding:0; background-size:cover; }
+.banner-inner{ width:100%; display:table;}
+.banner img{ width:100%;}
+.banner-left{ width:62%; float:left; margin-top:33px; }
+.banner-left video{ width:100%; height:auto; border-radius: 4px; border: solid #e0e3ef 5px;}
+.banner-right{ float:right; width:34%; background: rgba(76, 75, 81, 0.4);}
+.form{ float:right; width:100%; padding:30px 30px}
+.form h2{ font-family:'Roboto-Regular'; text-transform:uppercase; font-size:25px; color:#FFF; text-align:center;    margin: 0 0 20px;}
+.form h5{ font-family:'Roboto-Regular'; text-transform:uppercase; font-size:18px; color:#FFF; text-align:center; margin: 0 0 20px;}
+.form input[type="text"]{ font-family: 'Ubuntu', sans-serif; text-transform:capitalize; font-size:13px; font-weight:700;  color:#4c5364; background:#FFF; border:none; width:100%; padding:0px 16px 0px 16px; border-radius:5px;  margin: 0 0 25px; height:41px; line-height:41px; }
+.form input[type="email"]{ font-family: 'Ubuntu', sans-serif; text-transform:capitalize; font-size:13px; font-weight:700;  color:#4c5364; background:#FFF; border:none; width:100%; padding:0px 16px 0px 16px; border-radius:5px;  margin: 0 0 25px; height:41px; line-height:41px;}
+.form input[type="tel"]{ font-family: 'Ubuntu', sans-serif; text-transform:capitalize; font-size:13px; font-weight:700;  color:#4c5364; background:#FFF; border:none; width:100%; padding:0px 16px 0px 16px; border-radius:5px;  margin: 0 0 20px; height:41px; line-height:41px;}
+.form input[type="number"]{ font-family: 'Ubuntu', sans-serif; text-transform:capitalize; font-size:13px; font-weight:700;  color:#4c5364; background:#FFF; border:none; width:100%; padding:0px 16px 0px 16px; border-radius:5px;  margin: 0 0 20px; height:41px; line-height:41px;}
+.form label{ color:#FFF; font-size:9px; text-align:justify;}
+.form .form-left{ width:100%; float:left;}
+.form .form-left ul{}
+.form .form-left ul li{ width:47%; float:left; height:60px;}
+/*.form .form-left ul li:nth-child(3){ width:100%; float:left; height:30px; }*/
+.form .form-left ul li:nth-child(2n+2){ float:right; }
+.form .form-left ul li input[type="text"]{font-family: 'Ubuntu', sans-serif; text-transform:capitalize; font-size:13px; color:#4c5364; background:#FFF; border:none; width:100%; padding:0px 16px 0px 16px;border-radius:5px; height:41px; line-height:41px; font-weight: normal!important;}
+.form .form-left ul li input[type="email"]{font-family: 'Ubuntu', sans-serif; text-transform:capitalize; font-size:13px; color:#4c5364; background:#FFF; border:none; width:100%; padding:0px 16px 0px 16px;border-radius:5px; height:41px; line-height:41px; font-weight: normal!important;}
+.form .form-left ul li input[type="tel"]{font-family: 'Ubuntu', sans-serif; text-transform:capitalize; font-size:13px; color:#4c5364; background:#FFF; border:none; width:100%; padding:0px 16px 0px 16px;border-radius:5px; height:41px; line-height:41px; font-weight: normal!important;}
+.form .form-left ul li input[type="number"]{font-family: 'Ubuntu', sans-serif; text-transform:capitalize; font-size:13px; color:#4c5364; background:#FFF; border:none; width:100%; padding:0px 16px 0px 16px;border-radius:5px; height:41px; line-height:41px; font-weight: normal!important;}
+.form .form-left ul li select{font-family: 'Ubuntu', sans-serif; text-transform:capitalize; font-size:13px;  color:#969dae;background:#fff
+ url(../images/drowpdown-icon.png) no-repeat 93% 15px; -webkit-appearance:none; -moz-appearance:none; border:none; width:100%; padding:0px 12px 0px 12px; font-weight:700;border-radius:5px; height:41px; line-height:41px;}
+.form .form-right{width:48%; float:right;border-radius:5px;}
+.wpcf7-form .form p {margin: 0px !important; padding: 0px !important;}
+.form .form-right ul{}
+.form .form-right ul li{}
+.form .form-right ul li select{font-family: 'Ubuntu', sans-serif; text-transform:capitalize; font-size:13px; font-weight:bold; color:#969dae; background:#FFF; border:none; width:100%; padding:10px 0 10px 10px;border-radius:5px;margin: 0 0 18px;}
+.wpcf7-list-item-label { float: left; margin-left: 13px;  width: 88%;}
+.form input[type="submit"]{font-family: 'Ubuntu', sans-serif; text-transform:uppercase; font-size:20px; color:#fff; background:#ff4500; border:none; width:100%; padding:0; border-radius:5px; margin:0; float:left; font-weight:bold; text-align:center; text-decoration:none; height:50px; line-height:50px; }
+.form input[type="checkbox"]{ background:#FFF; border:solid 1px #5b5353; float:left; padding:5px;}
+.form p{font-family: 'Roboto-Light'; font-size:9px;  color:#FFF; line-height:12px; float:left;  margin: -15px 0 20px 25px;}
+
+.mortgage{width:100%; display:table; background:#f3f6fd;}
+.mortgage h2{font-family: 'Ubuntu', sans-serif; text-transform:uppercase; font-size:35px; color:#4c4b51; margin-top:120px; text-align:center;}
+.mortgage h2:before{ background:url(../images/activ.png) no-repeat center;margin: 40px auto 0; content:""; position:absolute; left:0; right:0; height:22px;}
+.ownership{ text-align:center;   margin-top: 60px; margin-bottom: 90px;}
+
+.ownership h3{ margin: 10px 0;font-family: 'Roboto-Bold'; text-transform:inherit; color:#4c4b51; font-size:23px;}
+.ownership p{  padding: 0 40px;font-family: 'Ubuntu', sans-serif; text-transform:inherit; font-size:16px; color:#161616;}
+.ownership span{ background:#ff4500; width:90px; height:90px; display:block; text-align:center; border-radius:50%; margin:0 auto; line-height:90px;}
+.ownership i{ color:#fff; font-size:30px;}
+.details i{ color:#fff; font-size:25px;}
+.ownership img{ padding:0; margin:0 auto; }
+.modal-dialog{ background:#fff; width:400px;}
+/*    --------------------------------------------------
+	:: Login Section
+	-------------------------------------------------- */
+#login {
+    padding-top: 50px
+}
+#login .form-wrap {
+    width: 100%;
+    margin: 0 auto;
+}
+#login h1 {
+    color: #1fa67b;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+#login .form-group {
+    margin-bottom: 25px;
+}
+#login .checkbox {
+    margin-bottom: 20px;
+    position: relative;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+#login .checkbox.show:before {
+    content: '\e013';
+    color: #1fa67b;
+    font-size: 17px;
+    margin: 1px 0 0 3px;
+    position: absolute;
+    pointer-events: none;
+    font-family: 'Glyphicons Halflings';
+}
+#login .checkbox .character-checkbox {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    vertical-align: middle;
+    display: inline-block;
+}
+#login .checkbox .label {
+    color: #6d6d6d;
+    font-size: 13px;
+    font-weight: normal;
+}
+#login .btn.btn-custom {
+    font-size: 14px;
+	margin-bottom: 20px;
+}
+#login .forget {
+    font-size: 13px;
+	text-align: center;
+	display: block;
+}
+
+/*    --------------------------------------------------
+	:: Inputs & Buttons
+	-------------------------------------------------- */
+.form-control {
+    color: #212121;
+}
+.btn-custom {
+    color: #fff;
+	background-color: #1fa67b;
+}
+.btn-custom:hover,
+.btn-custom:focus {
+    color: #fff;
+}
+
+/*    --------------------------------------------------
+    :: Footer
+	-------------------------------------------------- */
+#footer {
+    color: #6d6d6d;
+    font-size: 12px;
+    text-align: center;
+}
+#footer p {
+    margin-bottom: 0;
+}
+#footer a {
+    color: inherit;
+}
+
+.top-nav-collapse .logo{ margin:24px 0;transition:all 1s;}
+.top-nav-collapse .right-menu{ margin:30px 0;transition:all 1s;}
+.flexibla{ text-align:center;   margin-top: 60px; margin-bottom: 90px;}
+.flexibla img{ background:#ff4500;padding: 30px 35px; border-radius:50%;}
+.flexibla h3{ margin: 10px 0;font-family: 'Roboto-Bold'; text-transform:inherit; color:#4c4b51; font-size:23px;}
+.flexibla p{  padding: 0 40px;font-family: 'Ubuntu', sans-serif; text-transform:inherit; font-size:16px; color:#161616;}
+
+.lone{ text-align:center;   margin-top: 60px; margin-bottom: 90px;}
+.lone img{ background:#ff4500;  padding: 20px 30px; border-radius:50%;}
+.lone h3{ margin: 10px 0;font-family: 'Roboto-Bold'; text-transform:inherit; color:#4c4b51; font-size:23px;}
+.lone p{  padding: 0 40px;font-family: 'Ubuntu', sans-serif; text-transform:inherit; font-size:16px; color:#161616;}
+
+.seniors{ width:100%; display:table;}
+.seniors h2{font-family: 'Ubuntu', sans-serif; text-transform:uppercase; font-size:35px; color:#4c4b51; margin-top:70px;   margin-bottom: 40px; text-align:center;}
+.seniors h2:before{background:url(../images/activ.png) no-repeat center;margin: 40px auto 0; content:""; position:absolute; left:0; right:0; height:22px;}
+.seniors-in{ padding:0;}
+.seniors-in ul{ padding:0; margin:0;}
+.seniors-in ul li{ width:33%; float:left; margin-right:0.5%; list-style:none; margin-bottom:5px;}
+.seniors-in ul li:nth-child(3n+3){ margin-right:0;}
+.seniors-in ul li img{ width:100%;}
+.about-us{ width:100%; display:table; background:url(../images/bananr2.jpg) no-repeat center; margin-top:70px; background-size: cover;}
+.about-us-in{  margin-bottom: 120px; float:left;}
+.about-us-in h2{font-family: 'Ubuntu', sans-serif; text-transform:uppercase; font-size:35px; color:black; margin-top:120px;   margin-bottom: 50px; text-align:center;}
+.about-us-in h2:before{ background:url(../images/activ2.png) no-repeat center; content:""; position:absolute; margin-top: 40px; height:22px; left:0; right:0;}
+.about-us-in p{font-family: 'Ubuntu', sans-serif; font-size:16px; color:#000; text-transform:inherit; text-align: center;}
+.about-us-in a{font-family: 'Ubuntu', sans-serif; font-size:23px; color:#fff; text-transform:uppercase; background:#ff4500; padding: 10px 50px; float:none; text-decoration:none; margin:0 auto; margin-top:50px; display:table;}
+.footer{ width:100%; display:table; background:#ff4500;}
+.footer h2{font-family: 'Ubuntu', sans-serif; text-transform:uppercase; font-size:35px; color:#fff; margin-top:120px;   margin-bottom: 50px; text-align:center;}
+.footer h2:before{background:url(../images/activ2.png) no-repeat center; content:""; position:absolute; margin-top: 40px; height:22px; left:0; right:0;}
+.contect-us{}
+.wpcf7-not-valid-tip {  float: left;}
+.wpcf7-response-output.wpcf7-display-none.wpcf7-validation-errors { float:left; width:97%; color:#f00; bottom: -25px;}
+.contect-us input[type="text"]{ background:#FFF; border:none; width:100%;margin: 15px 0; padding: 15px;font-family: 'Ubuntu', sans-serif; font-size:13px; text-transform:capitalize; color:black;border: solid 1px #666;}
+.contect-us input[type="email"]{ background:#FFF; border:none; width:100%;margin: 15px 0; padding: 15px;font-family: 'Ubuntu', sans-serif; font-size:13px; text-transform:capitalize; color:black;border: solid 1px #666;}
+.contect-us input[type="tel"]{ background:#FFF; border:none; width:100%;margin: 15px 0; padding: 15px;font-family: 'Ubuntu', sans-serif; font-size:13px; text-transform:capitalize; color:black;border: solid 1px #666;}
+.banner-right form span.wpcf7-not-valid-tip{color:#F00; position:absolute; font-size:12px; font-weight: bold; text-transform: none; bottom: -30px;}
+.wpcf7-form-control-wrap.checkbox-357 span.wpcf7-not-valid-tip{left:0px; position:relative; bottom:-10px;}
+.wpcf7-form{float: left; width: 100%; position:relative;}
+.wpcf7-form .col-sm-6{ padding-left:0; padding-right: 30px;}
+.contect-us select{font-family: 'Ubuntu', sans-serif; font-size:13px; text-transform:capitalize; color:#4c4c4e;background:#FFF; border:none; width:100%;margin: 15px 0; padding: 15px;background:#fff url(../images/drowpdown-icon.png) no-repeat 95% 19px; -webkit-appearance:none; -moz-appearance:none;}
+.contect-us input[type="submit"]{font-family: 'Lato-Regular'; font-size:13px; color:#FFF; font-weight:bold; text-decoration:none;background:#2a3a4a; border:none;margin: 15px 0; padding: 15px 50px; float:right;}
+.details{margin-top: 10px; float:left;   margin-left: 40px;}
+.details h3{font-family: 'Lato-Black'; font-size:25px; color:#FFF; text-transform:uppercase;}
+.details h3:before{background:url(../images/activ2.png) no-repeat left 57px center; content:""; position:absolute; margin-top: 40px; height:6px; left:0; right:0;}
+.details ul{   margin-top: 35px;}
+.details ul li{ margin-top: 10px; width:100%; float:left; }
+.details ul li samp{font-family: 'Lato-Regular'; font-size:15px; color:#FFF; text-transform:inherit;}
+.details ul li span{font-family: 'Lato-Regular'; font-size:15px; color:#FFF; text-transform:lowercase; float:left; width:80%;}
+.details ul img{ margin-right: 12px; float:left;}
+.contect-bottom{ display:table;}
+.contect-bottom h4{ margin: 20px 0 10px;font-family: 'Roboto-Bold'; text-transform:inherit; color:#fff; font-size:17px;}
+.contect-bottom p{width: 100%;font-family: 'Ubuntu', sans-serif; font-size:14px; text-transform:inherit; color:#fff;   margin-bottom: 90px;}
+.contect-bottom p span{ text-decoration:underline;}
+.footer-bottom{ width:100%; display:table; background:#2a3a4a;}
+.footer-bottom-in{ margin:20px 0; width:100%; display:table;}
+.footer-bottom-in span{font-family: 'Lato-Regular'; font-size:13px; color:#FFF; text-transform:inherit; float:left; width:40%;}
+
+.footer-bottom-in .footer-bottom-in { width:50%; float:right;font-family: 'Lato-Regular';
+    font-size: 13px;  color: #FFF; text-transform: inherit; margin:0;}
+
+.footer-bottom-in ul{ float:right;  }
+.footer-bottom-in ul li{ display:inline-block; border-left:solid 1px #fff; line-height: 14px;}
+.footer-bottom-in ul li a{font-family: 'Lato-Regular'; font-size:15px; color:#FFF;text-transform:inherit; text-decoration:none; padding: 0 15px;}
+.footer-bottom-in ul li:first-child{ border-left:none;}
+.wpcf7-validation-errors{ position:absolute; bottom: -15px;left: 10px;}
+.contect-us span.wpcf7-not-valid-tip{ background:red; padding:4px 10px; bottom:-42px; color:#FFF; position:absolute; width:100%}
+.contect-us .wpcf7-response-output.wpcf7-display-none.wpcf7-validation-errors{ background:red; padding:4px 10px; bottom:-42px; color:#FFF; position:absolute; width:100%; left:0;}
+
+.simplePopup {
+	display: none;
+	position: fixed;
+	border: 4px solid #808080;
+	background: #fff;
+	z-index: 9993;
+	padding: 12px;
+	width: 70%;
+	min-width: 70%;
+}
+.simplePopupClose {
+	float: right;
+	cursor: pointer;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+.simplePopupBackground {
+	display: none;
+	background: #000;
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 9991;
+}
+.wpcf7-form-control{ position:relative; width:100%; border: solid 1px #666; }
+.wpcf7-form-control.wpcf7-checkbox{border:0px;}
+
+.form label span .wpcf7-not-valid-tip{ width:200px; bottom:0;}
+
+
+@media (max-width:1024px){
+.banner-right{ width:40%;}
+.banner-left{ width:55%; }
+.banner .banner-left img{ width:100%; float:left;}
+.banner img{}
+.form a{ margin: 10px 0 15px;}
+.form p{margin: -15px 0 0 25px;}
+.right-menu ul li a{ padding:0 10px;}
+.logo{ padding-left:15px;}
+.collapse{ margin-right:15px}
+}
+@media (max-width:900px){
+.logo{ width:100%; text-align:center; margin:20px 0 10px;}
+.details{ margin:0; word-wrap: break-word;}
+.collapse{ width:100%; margin:15px 0}
+.right-menu{ float:none; display:table; text-align:center; width:100%; margin:0;}
+.navbar-fixed-bottom, .navbar-fixed-top{ position:relative;}
+.banner{ margin-top:0;}
+.navbar{ margin:0;}
+.details h3::before{ background-position:17px 0;}
+}
+
+@media (max-width:800px){
+.banner-left{ width:100%;}
+.banner-right{width:100%; margin-top:30px;}
+.footer-bottom-in span{ width:100%; text-align:center;}	
+.footer-bottom-in ul { float: none; text-align: center; width: 100%;}
+.footer-bottom-in .footer-bottom-in{ width:100%; text-align:center;}
+}
+
+@media (max-width:767px){
+.footer .details{ padding-bottom:20px;}
+.right-menu{margin: 0 0 30px; text-align:center; float:none;}
+.logo{margin: 30px 0 20px;}
+.ownership{ margin-bottom:0; margin-top:45px;}
+.ownership h3{margin: 15px 0 10px;}
+.flexibla{margin-bottom:0; margin-top:45px;}
+.flexibla h3{margin: 15px 0 10px;}
+.lone{margin-bottom:0; margin-top:45px;}
+.lone h3{margin: 15px 0 10px;}
+.lone p{ margin:0 0 45px;}
+.right-menu ul li{ width:100%; text-align:left;}
+.right-menu{ margin-bottom:0;}
+.collapse{ margin-top:0; padding-top:10px}
+.mortgage h2{font-size: 25px; margin-top:0px;}
+.mortgage h2::before{ height:4px;}
+.seniors h2{font-size: 25px; margin-top: 50px;}
+.seniors h2::before{ height:4px;}
+.about-us-in h2{font-size: 25px; margin-top: 50px;}
+.about-us-in h2::before{ height:4px;}
+.footer h2{font-size: 25px; margin-top: 50px;}
+.footer h2::before{ height:4px;}
+.footer-bottom-in span{ width:100%;}
+.contect-bottom p{ width:100%;}
+.mortgage{ padding:50px 0;}
+.form h2{ font-family: "Roboto-Regular"; font-size:20px; font-weight:normal;}
+.wpcf7-form .col-sm-6{ padding-right:0;}
+}
+
+
+@media (max-width:680px){
+.footer{ margin-top:-2px;}
+.footer-bottom-in{ text-align:center;}
+.footer-bottom-in ul{ float:none}
+.footer-bottom-in span{ margin:0 0 10px; display:block;}	
+}
+
+@media (max-width:500px){
+.right-menu ul li a{ padding:0 4px;}
+.mortgage h2{ font-size:25px;}
+.seniors h2{ font-size:25px;}
+.about-us-in h2{ font-size:30px;}
+.footer h2{ font-size:30px;}
+.footer{ margin-top:-40px;}
+.seniors-in ul li{ display:table; width:100%; margin:0;}
+.seniors-in ul li img{ width:100%; margin:10px 0;}
+.about-us{ margin-top:20px;}
+.logo{ margin:20px 0 10px;}
+.logo img{ width:100%;}
+.banner{ padding:10px 0;}
+}
+
+@media (max-width:380px){
+.mortgage h2{ font-size:20px;}
+.ownership h3{ font-size:18px;}
+.flexibla h3{ font-size:18px;}
+.lone h3{ font-size:18px;}
+.seniors h2{ font-size:20px;}
+.about-us{ margin: 30px 0 0;}
+.about-us-in{ margin:0;}
+.about-us-in h2{ font-size:20px;}
+.footer h2{ font-size:20px;}
+.about-us-in a{margin: -20px 0 68px;}
+.about-us-in p{margin: 0 0 50px; float:none;}
+.footer{margin-top: 100px;}
+.form .form-left ul li{ width:100%;}
+}
